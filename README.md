@@ -2,7 +2,7 @@
 Scriptable databases introduce “infrastructure as a code” into devops practices. Scripts for install cloud couchbase cluster.
 
 # Syntax
-All sripts have one required paramenter - *$ConfigPath*. This is the path to config, path can be absolute or relative. 
+All sripts have one required parameter - *$ConfigPath*. This is the path to config, path can be absolute or relative. 
 
 **Examples of installing aks**
 Relative path example (you should be in *piptemplates-devops-envmgmt* folder):
