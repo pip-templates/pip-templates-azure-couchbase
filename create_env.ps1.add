@@ -1,0 +1,9 @@
+# Create couchbase db cluster
+switch ($config.env_type) {
+    "cloud" { 
+        . "$($rootPath)/src/install_couchbase.ps1" $ConfigPath
+     }
+     Default {
+         Write-Host "Platform type not specified in config file. Please add 'env_type' to config."
+     }
+}
